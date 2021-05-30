@@ -1,0 +1,11 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+
+input.black-input {
+    border-bottom: 1px solid #000000!important;
+    box-shadow: 0 1px 0 0 #000000!important;
+    color: #000000!important;
+}
+
+input.black-input::placeholder {
+    color: #000000!important;
+}
