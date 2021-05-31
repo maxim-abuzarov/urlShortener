@@ -63,6 +63,7 @@ const AuthPage = () => {
                                     type="text"
                                     name="email"
                                     className='black-input center-align'
+                                    value={form.email}
                                     onChange={changeHandler}
                                 />
                                 <input
@@ -71,6 +72,7 @@ const AuthPage = () => {
                                     type="password"
                                     name="password"
                                     className='black-input center-align'
+                                    value={form.password}
                                     onChange={changeHandler}
                                 />
                             </div>
